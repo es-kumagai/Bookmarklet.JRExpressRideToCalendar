@@ -1,5 +1,7 @@
 (function() {
 
+	const currentDate = new Date();
+
 	class PlaceAndTime {
 		
 		constructor(place, time) {
@@ -223,7 +225,6 @@
 	
 	function makeCalendarFileData(reservationDescription) {
 		
-		const currentDate = new Date();
 		const currentYear = date.getFullYear();
 		const currentMonth = date.getMonth();
 
@@ -277,7 +278,6 @@
 		const description = reservationDescription.description;
 		const stationLocation = getStationLocation();
 		
-		const currentDate = new Date();
 		const calendarData = [
 			'BEGIN:VCALENDAR',
 			'VERSION:2.0',
