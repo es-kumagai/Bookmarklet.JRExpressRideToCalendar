@@ -99,6 +99,11 @@
 			return this._seatType;
 		}
 		
+		get seatNumber() {
+			
+			return this._seatNumber;
+		}
+		
 		get departurePlaceAndTime() {
 			
 			return this._departurePlaceAndTime;
@@ -323,7 +328,7 @@
 			}
 		}
 		
-		const label = reservationDescription.shinkansenInformation.shinkansenName.label;
+		const label = reservationDescription.shinkansenInformation.shinkansenName.label + ' : ' + reservationDescription.shinkansenInformation.seatNumber;
 		const description = reservationDescription.description;
 		const stationLocation = getStationLocation();
 		
