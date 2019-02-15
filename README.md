@@ -40,7 +40,7 @@ sh Setup/Safari.sh
 
 
 ```html
-javascript:%28function%28%29%20%7B%0A%09const%20e%20%3D%20document.createElement%28%27script%27%29%3B%0A%09const%20url%20%3D%20%27https%3A//rawgit.com/es-kumagai/Bookmarklet.JRExpressRideToCalendar/master/Bookmarklet.js%27%3B%0A%09e.charset%3D%27utf-8%27%3B%0A%09e.src%3Durl%3B%0A%09document.body.appendChild%28e%29%3B%0A%7D%29%28%29
+javascript:%28function%28%29%20%7B%0A%09const%20e%20%3D%20document.createElement%28%27script%27%29%3B%0A%09const%20url%20%3D%20%27https%3A//cdn.jsdelivr.net/gh/es-kumagai/Bookmarklet.JRExpressRideToCalendar@master/Bookmarklet.js%27%3B%0A%09e.charset%3D%27utf-8%27%3B%0A%09e.src%3Durl%3B%0A%09document.body.appendChild%28e%29%3B%0A%7D%29%28%29
 ```
 
 ## 使い方
